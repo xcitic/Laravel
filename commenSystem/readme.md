@@ -1,10 +1,3 @@
-Setup project:
-  ## Open Terminal then type the command to make build.sh executable and run setup file
-  $ chmod a+x build.sh && ./build.sh
-
-
-
-
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
