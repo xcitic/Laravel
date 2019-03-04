@@ -7,7 +7,7 @@ composer install
 echo '-------------------------------'
 echo -e 'Setting up .env with sqlite db and seeding'
 echo '-------------------------------'
-cp env.example .env
+cp .env.example .env
 sed -i -e 's/mysql/sqlite/g' .env
 sed -i -e 's/DB_DATABASE=homestead/ /g' .env
 sed -i -e 's/DB_USERNAME=homestead/ /g' .env
